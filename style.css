@@ -1,1 +1,15 @@
+*{
+  background-color:rgb(201,206,206);
+  font-family:"Old Standard TT", "EB Garamond", "Times New Roman", serif;
+  color:black;
+}
 
+#links{
+  background-color:rgb(167,174,176);
+  height:auto;
+  weight:auto;
+}
+
+a:visited{
+  color:rgb(80,74,69);
+}
