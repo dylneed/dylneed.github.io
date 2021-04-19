@@ -4,10 +4,21 @@
   color:black;
 }
 
+#help{
+	color:black;
+	background-color:white;
+}
+
 #links{
   background-color:rgb(167,174,176);
   height:auto;
-  weight:auto;
+  width:190px;
+  border:10px solid rgb(167,174,176);
+  border-radius:20px;
+}
+
+a{
+	background-color:transparent;
 }
 
 a:visited{
