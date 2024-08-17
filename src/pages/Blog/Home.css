@@ -1,0 +1,20 @@
+.post-link {
+  filter:none;
+  padding: 10px;
+}
+
+#blog-list{
+  margin:auto;
+  width:min-content;
+  min-width:500px;
+}
+
+@media screen and (max-width:500px) {
+  #blog-list{
+    min-width:94%;
+  }
+}
+
+.post-link:hover {
+  filter:none;
+}

@@ -1,0 +1,14 @@
+#blog {
+  background-image: linear-gradient(90deg,transparent 0%,rgba(0,0,0,0.8) 25%, rgba(0,0,0,0.8) 75%, transparent);
+  /* min-height:min(85vh, 100vh - 160px); */
+  min-height: 85vh;
+  /* padding: min(15vh, 120px) 0px min(5vh,40px); */
+  padding: max(40px, min(15vh, 120px)) 0px 0px;
+
+}
+
+@media screen and (max-width:600px) {
+  #blog {
+    background:rgba(0,0,0,0.8);
+  }
+}

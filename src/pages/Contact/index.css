@@ -1,0 +1,79 @@
+#contact {
+  background-color: rgb(0,0,0,0.4);
+  background-image: linear-gradient(90deg,transparent 0%,rgba(0,0,0,0.3) 25%, rgba(0,0,0,0.3) 75%, transparent);
+  width:100%;
+  min-height:min(80vh - 20px, 100vh - 180px);
+  padding: min(15vh + 10px, 130px) 0px min(5vh + 10px, 50px);
+  z-index:0;
+}
+
+h2{
+  text-align:center;
+}
+
+#contact-form {
+  margin:auto;
+  text-align: center;
+  width:50%;
+  min-width: 300px;
+}
+
+@media screen and (max-width:350px) {
+  #contact-form{
+    min-width:94%;
+  }
+}
+
+form {
+  text-align: left;
+}
+
+label, input, textarea{
+  color:#fff;
+  margin: 0;
+  width:calc(100% - 12px);
+  text-align:left;
+  font-size:1.083rem;
+  z-index: 2;
+}
+
+span {
+  color:#d8d8d8;
+  font-size:0.917rem;
+}
+
+input, textarea {
+  color:#eee;
+  background-color:rgb(0,0,0,0.5);
+  border:1px solid #eee;
+  border-radius: 5px;
+  padding:5px;
+  display:block;
+  margin-bottom:10px;
+  font-size:1.167rem;
+}
+
+textarea {
+  height:100px;
+}
+
+button {
+  color:#eee;
+  background-color:rgb(0,0,0,0.1);
+  border:1px solid #eee;
+  /* border-radius: 5px; */
+  padding:2px;
+  width:100%;
+  margin: 0 0 10px;
+  font-size:1.167rem;
+}
+
+button:hover {
+  color:#ccc;
+  border-color:#ccc;
+}
+
+button:active {
+  color:#aaa;
+  border-color:#aaa;
+}

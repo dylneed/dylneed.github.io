@@ -1,0 +1,20 @@
+.navigation{
+  /* color: white; */
+  font-family: Friz Quadrata Std, Sina Nova, Serif;
+  font-weight:bold;
+  font-size: 1.333rem;
+  margin:10px;
+  /* float:left; */
+  filter:drop-shadow(0px 0px 1px black);
+  text-decoration:inherit;
+}
+
+#navBar {
+  position:relative;
+  float:right;
+  height:100%;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  padding:0 10px
+}

@@ -1,0 +1,35 @@
+#nameplate {
+  background: transparent;
+  float:left;
+  display:flex;
+  align-items: center;
+  text-align:center;
+  padding:0 0 0 20px;
+  height:100%;
+  filter:none;
+  text-decoration:inherit;
+  margin:auto;
+  white-space: nowrap;
+}
+#nameplate:hover {
+  cursor: pointer;
+  filter:none;
+}
+#nameplate:active {
+  filter:drop-shadow(0px 0px 1px darkBlue);
+}
+
+h1 {
+  font-size: 2.667rem;
+  margin:0;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+#lastname {
+  font-size:2.333rem;
+  margin:0;
+  padding:0;
+}

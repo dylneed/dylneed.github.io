@@ -1,0 +1,92 @@
+import React, {} from "react";
+import { Route, Link , Navigate } from "react-router-dom";
+
+import About from './About';
+import {Home as BlogHome, Post as BlogPost, posts as blogPosts, postTitles as blogPostTitles} from './Blog';
+import Contact from './Contact';
+
+import TitleUpdater from "../components/TitleUpdater";
+
+let about = {
+  name: "About",
+  title: "",
+  path:"/about",
+  element: <About />,
+}
+
+let blog = {
+  name: "Blog",
+  path:"/blog",
+  element: <BlogHome/>,
+}
+blog.title = blog.name;
+blog.route =  <Route path={blog.path} key="blog">
+                {blogPosts.map((post, i) => {
+                  return (
+                    <Route
+                      path={post.url}
+                      element={
+                        <>
+                          <TitleUpdater pageTitle={post.title} />
+                          <BlogPost
+                            post={post}
+                            blogPath={blog.path}
+                            getPostPath={(url) => url && `${blog.path}/${url}`}
+                            nextPost={blogPostTitles[i-1]}
+                            prevPost={blogPostTitles[i+1]}
+                          />
+                        </>
+                      }
+                      key={i}
+                    />
+                  );
+                })}
+                <Route
+                  path=""
+                  element={<>
+                            <TitleUpdater pageTitle={blog.title} />
+                            <BlogHome />
+                           </>}
+                />
+              </Route>
+
+let contact = {
+  name: "Contact",
+  path:"/contact",
+  element: <Contact />,
+}
+
+let home = {
+  name: "Home",
+  title: "",
+  path:"/",
+  element:  <div style={{minHeight:"85vh", backgroundColor:"rgb(0,0,0,0.5)"}}>
+              <Navigate replace to={about.path}/>
+            </div>,
+  navbarDisplay: false,
+  menuDisplay: false, 
+}
+
+let pages = [
+  home,
+  about,
+  blog,
+  contact,
+]
+
+pages.forEach((page,i) => {
+  if (page.title === undefined) page.title = page.name
+  if (page.navbarDisplay == null) page.navbarDisplay = true;
+  if (page.menuDisplay == null) page.menuDisplay = true;
+  if (page.route == null) page.route =  <Route
+                                          path={page.path}
+                                          element={<>
+                                                    <TitleUpdater pageTitle={page.title} />
+                                                    {page.element}
+                                                  </>}
+                                          key={i}
+                                        />;
+  if (page.link == null) page.link = <Link to={page.path} className="navigation" key={i}>{page.name}</Link>;
+})
+
+export {pages, home, about, blog, contact} ;
