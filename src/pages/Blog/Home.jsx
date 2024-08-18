@@ -11,7 +11,12 @@ function Home() {
       <div id="blog-list">
         {posts.map((post, i) => {
           return (
-            <Link className='post-link' to={`${post.url}`} key={i}>
+            <Link
+              className='post-link'
+              to={`${post.url}`}
+              onClick={() => window && window.scroll(0,0)}
+              key={i}
+            >
               <Header post={post}/>
             </Link>
           );

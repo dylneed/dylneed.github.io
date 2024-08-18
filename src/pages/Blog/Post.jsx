@@ -54,14 +54,17 @@ function Post({post, blogPath, getPostPath, nextPost, prevPost}) {
     linkedPost.height = getComponentHeight(linkedPost.ref,19);
   })},[wideLinks, linkedPosts])
 
-  const EndLink = ({linkedPost}) => {
-    let to = getPostPath(linkedPost.url);
-    let ref = linkedPost.ref;
-    let style = linkedPost.rightAlign ? {right:'0%'} : {left:'0%'};
-    return  <Link className="endlink" to={to} ref={ref} style={style} id={`endlink${linkedPost.order}`}>
-              {wideLinks ? `${linkedPost.title}` : `${linkedPost.order}`}
-            </Link>;
-  }
+  const EndLink = ({linkedPost}) => 
+    <Link
+      className="endlink"
+      to={getPostPath(linkedPost.url)}
+      ref={linkedPost.ref}
+      style={linkedPost.rightAlign ? {right:'0%'} : {left:'0%'}}
+      id={`endlink${linkedPost.order}`}
+      onClick={() => window && window.scroll(0,0)} // Scroll to top on link click
+    >
+      {wideLinks ? `${linkedPost.title}` : `${linkedPost.order}`}
+    </Link>;
 
   return(
     <div id="blog">
