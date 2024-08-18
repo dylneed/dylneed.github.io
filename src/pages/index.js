@@ -44,7 +44,7 @@ blog.route =  <Route path={blog.path} key="blog">
                 <Route
                   path=""
                   element={<>
-                            <TitleUpdater pageTitle={blog.title} />
+                            <TitleUpdater pageTitle={`${blog.title} | Blog`} />
                             <BlogHome />
                            </>}
                 />
