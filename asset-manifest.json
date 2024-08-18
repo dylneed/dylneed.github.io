@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.08ba9ba3.css",
-    "main.js": "/static/js/main.5c87c60d.js",
+    "main.css": "/static/css/main.9f4aac2e.css",
+    "main.js": "/static/js/main.84fd6bf1.js",
     "static/media/header.png": "/static/media/header.7968e0b425a60e401b5a.png",
     "static/media/background.jpg": "/static/media/background.f3721e94603f06a54faf.jpg",
     "static/media/SINA NOVA W01 REGULAR.OTF": "/static/media/SINA NOVA W01 REGULAR.7e97d54b08fba9321e68.OTF",
     "static/media/FRIZ QUADRATA STD REGULAR.OTF": "/static/media/FRIZ QUADRATA STD REGULAR.aff9163cc1d1a0cf84c8.OTF",
     "index.html": "/index.html",
-    "main.08ba9ba3.css.map": "/static/css/main.08ba9ba3.css.map",
-    "main.5c87c60d.js.map": "/static/js/main.5c87c60d.js.map"
+    "main.9f4aac2e.css.map": "/static/css/main.9f4aac2e.css.map",
+    "main.84fd6bf1.js.map": "/static/js/main.84fd6bf1.js.map"
   },
   "entrypoints": [
-    "static/css/main.08ba9ba3.css",
-    "static/js/main.5c87c60d.js"
+    "static/css/main.9f4aac2e.css",
+    "static/js/main.84fd6bf1.js"
   ]
 }
