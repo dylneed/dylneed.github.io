@@ -1,16 +1,12 @@
-import React, {useRef, useState, useEffect, useMemo} from 'react';
+import React, {useRef, useEffect, useMemo} from 'react';
 import './Post.css';
 import {Link} from 'react-router-dom';
 import Header from './Header';
-import useWindowSize from '../../hooks/useWindowSize.js';
-import {getComponentWidth, getComponentHeight} from '../../utils/getComponentSize.js';
+import useCompareSize from '../../hooks/useCompareSize.js';
+import {getComponentHeight} from '../../utils/getComponentSize.js';
 
 
 function Post({post, blogPath, getPostPath, nextPost, prevPost}) {
-  const windowSize = useWindowSize();
-
-  const [wideLinks, setWideLinks] = useState(true);
-
   post.ref = useRef(null);
 
   if (!prevPost) prevPost = {blank:true}
@@ -38,21 +34,7 @@ function Post({post, blogPath, getPostPath, nextPost, prevPost}) {
   footlink.ref = useRef();
   useEffect(() => {footlink.height = getComponentHeight(footlink.ref,19)},[footlink])
 
-  // Update post.width
-  useEffect(() => {post.width = getComponentWidth(post.ref,920)},[windowSize, post]);
-
-  // Calculate wideLinks
-  useEffect(() => {
-    let totalWidth = 0;
-    linkedPosts.forEach((linkedPost) => totalWidth += linkedPost.width);
-    setWideLinks(post.width >= totalWidth);
-  },[windowSize, post.width, linkedPosts])
-
-  // get linkedPosts size
-  useEffect(() => {wideLinks && linkedPosts.forEach((linkedPost) => {
-    linkedPost.width = getComponentWidth(linkedPost.ref);
-    linkedPost.height = getComponentHeight(linkedPost.ref,19);
-  })},[wideLinks, linkedPosts])
+  const wideLinks = useCompareSize(post,linkedPosts,"width");
 
   const EndLink = ({linkedPost}) => 
     <Link
