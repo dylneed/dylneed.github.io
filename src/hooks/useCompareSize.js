@@ -14,11 +14,8 @@ const useCompareSize = (parent, elements, dimension, offset=0) => {
   useEffect(() => {
     let totalSize = 0;
     elements.forEach((el) => totalSize += el[dimension]);
-    // console.log(elements[0])
-    // console.log(dimension)
     let sizes = ""
     elements.forEach((el) => sizes += el[dimension] + " ");
-    // console.log(sizes, totalSize, parent[dimension])
     setCompare(parent[dimension] >= totalSize + offset);
   }, [windowSize, parent, elements, dimension, offset]);
 
