@@ -3,6 +3,10 @@
   padding: 10px;
 }
 
+h1.header {
+  text-align:center;
+}
+
 #blog-list{
   margin:auto;
   width:min-content;
