@@ -6,7 +6,6 @@ import useCompareSize from '../../hooks/useCompareSize.js';
 import {getComponentHeight} from '../../utils/getComponentSize.js';
 
 function initLinkedPost(post, right, ref) {
-  // if (!post) return;
   if (!post) return;
   post.rightAlign = right;
   post.order = right ? "Next" : "Previous"
@@ -18,7 +17,6 @@ function initLinkedPosts(prevPost, nextPost, prevRef, nextRef) {
   let _posts = [];
   prevPost && _posts.push(initLinkedPost(prevPost, false, prevRef));
   nextPost && _posts.push(initLinkedPost(nextPost, true, nextRef));
-  console.log(_posts);
   return _posts;
 }
 
