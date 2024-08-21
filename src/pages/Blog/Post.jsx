@@ -5,30 +5,33 @@ import Header from './Header';
 import useCompareSize from '../../hooks/useCompareSize.js';
 import {getComponentHeight} from '../../utils/getComponentSize.js';
 
+function initLinkedPost(post, right, ref) {
+  // if (!post) return;
+  if (!post) return;
+  post.rightAlign = right;
+  post.order = right ? "Next" : "Previous"
+  post.ref = ref;
+  return post;
+}
 
-function Post({post, blogPath, getPostPath, nextPost, prevPost}) {
+function initLinkedPosts(prevPost, nextPost, prevRef, nextRef) {
+  let _posts = [];
+  prevPost && _posts.push(initLinkedPost(prevPost, false, prevRef));
+  nextPost && _posts.push(initLinkedPost(nextPost, true, nextRef));
+  console.log(_posts);
+  return _posts;
+}
+
+const Post = ({post, blogPath, getPostPath, nextPost, prevPost}) => {
   post.ref = useRef(null);
 
-  if (!prevPost) prevPost = {blank:true}
-  prevPost.ref = useRef(null);
-  prevPost.order = "Previous";
-  prevPost.rightAlign = false;
-
-
-  if (!nextPost) nextPost = {blank: true}
-  nextPost.ref = useRef(null);
-  nextPost.order = "Next";
-  nextPost.rightAlign = true;
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+  
+  const linkedPosts = useMemo(() => initLinkedPosts(prevPost, nextPost, prevRef, nextRef), [prevPost,nextPost])
 
   const spacer = {ref: useRef(null)}
   spacer.getHeight = () => getComponentHeight(spacer.ref,24)
-  
-  const linkedPosts = useMemo(() => {
-    let _posts = []
-    prevPost.blank || _posts.push(prevPost);
-    nextPost.blank || _posts.push(nextPost);
-    return _posts;
-  }, [prevPost,nextPost])
 
   const footlink = useMemo(() => {return {text: "Back to Blog"}}, [])
   footlink.ref = useRef();

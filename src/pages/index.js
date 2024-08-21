@@ -6,6 +6,8 @@ import {Home as BlogHome, Post as BlogPost, posts as blogPosts, postTitles as bl
 import Contact from './Contact';
 
 import TitleUpdater from "../components/TitleUpdater";
+import ExternalNavigator from "../components/ExternalNavigator";
+
 
 let about = {
   name: "About",
@@ -67,11 +69,21 @@ let home = {
   menuDisplay: false, 
 }
 
+let music = {
+  name: "Music",
+  title: "",
+  path:"/music",
+  element: <ExternalNavigator to="https://dylanneedleman.bandcamp.com/" replace />,
+  navbarDisplay: false,
+  menuDisplay: false,
+}
+
 let pages = [
   home,
   about,
   blog,
   contact,
+  music
 ]
 
 pages.forEach((page,i) => {
