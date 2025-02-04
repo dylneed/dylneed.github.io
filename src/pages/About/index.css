@@ -1,5 +1,5 @@
 #about {
-  background-color: rgb(0,0,0,0.7);
+  background-color: rgb(0,0,0,0.6);
   min-height:min(80vh, 100vh - 160px);
   padding: min(15vh, 120px) 0px min(5vh,40px);
 }

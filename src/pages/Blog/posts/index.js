@@ -1,11 +1,9 @@
 import {montero} from './Montero';
 import {onAnalog} from './OnAnalog';
-// import {annihilatingNoise} from './AnnihlatingNoise';
 // import {harshNoiseWall} from './HarshNoiseWall';
 
 const posts = [
   // harshNoise`Wall,
-  // annihilatingNoise,
   onAnalog,
   montero,
 ]

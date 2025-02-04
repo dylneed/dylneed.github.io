@@ -79,4 +79,5 @@ const Post = ({post, blogPath, getPostPath, nextPost, prevPost}) => {
     </div>
   )
 }
+
 export default Post;

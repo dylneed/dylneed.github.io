@@ -17,12 +17,6 @@ let about = {
   element: <About />,
 }
 
-let works = {
-  name: "Works",
-  path:"/works",
-  element: <Works />,
-}
-
 let blog = {
   name: "Blog",
   path:"/blog",
@@ -58,6 +52,12 @@ blog.route =  <Route path={blog.path} key="blog">
                            </>}
                 />
               </Route>
+
+let works = {
+  name: "Works",
+  path:"/works",
+  element: <Works />,
+}
 
 let contact = {
   name: "Contact",
@@ -109,4 +109,4 @@ pages.forEach((page,i) => {
   if (page.link == null) page.link = <Link to={page.path} className="navigation" key={i}>{page.name}</Link>;
 })
 
-export {pages, home, about, blog, contact} ;
+export {pages, home, about, blog, contact, works} ;

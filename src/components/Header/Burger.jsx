@@ -13,5 +13,4 @@ function Burger({burgerRef: ref, setShowMenu}) {
     </button>
   )
 }
-
 export default Burger

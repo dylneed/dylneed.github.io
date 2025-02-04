@@ -41,5 +41,4 @@ function Header({pages}) {
     </header>
   );
 }
-
 export default Header;

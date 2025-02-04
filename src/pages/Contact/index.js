@@ -25,7 +25,7 @@ function Contact() {
         />
         <label htmlFor="email">
           Email Address
-          <span className="required"> (Required)</span>
+          <span> (Required)</span>
         </label>
         <input
           id="email"
@@ -46,7 +46,7 @@ function Contact() {
         />
         <label htmlFor="message">
           Message
-          <span className="required"> (Required)</span>
+          <span> (Required)</span>
         </label>
         <textarea
           id="message"
