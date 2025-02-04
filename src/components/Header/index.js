@@ -28,7 +28,7 @@ function Header({pages}) {
   const burger = useMemo(()=>{return{}},[])
   burger.ref = useRef(null)
 
-  const showNavBar = useCompareSize(header,[navBar,nameplate],"width")
+  const showNavBar = useCompareSize(header,[navBar,nameplate],"width",10)
 
   return (
     <header id="header" style={{backgroundImage:`url(${header.img})`}} ref={header.ref}>
