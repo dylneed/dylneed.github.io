@@ -1,0 +1,22 @@
+#header {
+  background: black 0px 0px/100% repeat-y;
+  width:100%;
+  position:fixed;
+  height:15vh;
+  max-height:120px;
+  min-height: 40px;
+  top:0;
+  z-index:5;
+}
+
+a.navigation {
+  color:white;
+}
+
+a.navigation:hover {
+  filter:invert(1);
+}
+
+a.navigation:active {
+  filter: invert(1);
+}

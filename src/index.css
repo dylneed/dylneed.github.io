@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Friz Quadrata Std';
+  src: url('./assets/fonts/FRIZ QUADRATA STD REGULAR.OTF');
+}
+
+@font-face {
+  font-family: 'Sina Nova';
+  src: url('./assets/fonts/SINA NOVA W01 REGULAR.OTF');
+}
+
+* {
+  font-family: Sina Nova, serif;
+  color:white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Friz Quadrata Std, Sina Nova, serif;
+  font-weight:normal;
+  text-shadow: 0 0 2px black;
+}
+
+h1 {
+  font-variant: small-caps;
+  font-size:2.667rem;
+  text-shadow: 0 0 10px black
+}
+
+h2 {
+  font-size: 1.667rem;
+}
+
+h3 {
+  font-size: 1.333rem;
+}
+
+body {
+  margin:0;
+  background:black 0px 0px/100% repeat-y;
+}
+
+a:hover {
+  color:#8bf;
+  filter:none;
+}
+
+a:active {
+  color:#38f
+}

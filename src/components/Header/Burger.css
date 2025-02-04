@@ -1,0 +1,27 @@
+#burger {
+  float:right;
+  height:100%;
+  align-items:center;
+  width: 50px;
+  padding:0 10px;
+  border:0;
+  background-color: transparent;
+}
+
+div.bun {
+  height:2px;
+  background-color: white;
+  margin:0
+}
+
+#burger:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
+#burger:active {
+  background-color: rgba(0,0,0,0.5);
+}
+
+div.meat {
+  height:10px;
+}
