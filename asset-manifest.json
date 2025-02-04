@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d64a7a82.css",
-    "main.js": "/static/js/main.e77ea07a.js",
+    "main.js": "/static/js/main.1404e51e.js",
     "static/media/header.png": "/static/media/header.7968e0b425a60e401b5a.png",
     "static/media/background.jpg": "/static/media/background.f3721e94603f06a54faf.jpg",
     "static/media/SINA NOVA W01 REGULAR.OTF": "/static/media/SINA NOVA W01 REGULAR.7e97d54b08fba9321e68.OTF",
     "static/media/FRIZ QUADRATA STD REGULAR.OTF": "/static/media/FRIZ QUADRATA STD REGULAR.aff9163cc1d1a0cf84c8.OTF",
     "index.html": "/index.html",
     "main.d64a7a82.css.map": "/static/css/main.d64a7a82.css.map",
-    "main.e77ea07a.js.map": "/static/js/main.e77ea07a.js.map"
+    "main.1404e51e.js.map": "/static/js/main.1404e51e.js.map"
   },
   "entrypoints": [
     "static/css/main.d64a7a82.css",
-    "static/js/main.e77ea07a.js"
+    "static/js/main.1404e51e.js"
   ]
 }
