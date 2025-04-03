@@ -1,11 +1,15 @@
 const worksList = {
   chamber: [
-//     {
-//       title: "",
-//       year: 2025,
-//       ensemble: "Flute, Bass Clarinet, Bassoon, Piano, Violin, Viola, and Cello",
-//       performances: [{ensemble:"the Talea Ensemble",year:2025}]
-//     },
+    {
+      title: "The All Is One",
+      year: 2025,
+      ensemble: "Flute, Bass Clarinet, Bassoon, Piano, Violin, Viola, and Cello",
+      performances: [{
+        ensemble:"the Talea Ensemble",
+        year:2025,
+//         url: "https://dylanneedleman.bandcamp.com/track/the-all-is-one",
+      }]
+    },
     {
       title: "A Shard",
       year: 2024,
@@ -52,6 +56,7 @@ const worksList = {
       performances: [{
         ensemble:"the Lamnth Duo",
         year:2025,
+        url: "https://dylanneedleman.bandcamp.com/track/faulting"
       }]
     },
     {
