@@ -49,6 +49,16 @@ const worksList = {
     }
   ],
   soloDuet: [
+//     {
+//       title: "Whatever Walked There Walked Alone",
+//       year: 2025,
+//       ensemble: "solo Piano",
+//       performances :[{
+//         ensemble: "Dylan Needleman",
+//         year: 2025,
+//         url: ""
+//       }]
+//     },
     {
       title: "Faulting",
       year: 2025,
