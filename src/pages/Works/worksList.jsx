@@ -103,6 +103,13 @@ const worksList = {
     }
   ],
   electronic: [
+//     {
+//       title: "All//One",
+//       year: 2025,
+//       ensemble: "Digital Sound Installation",
+//       ensemblePrefix: "\b",
+//       url: ""
+//     },
     {
       title: "The Whalefall",
       year: 2022,

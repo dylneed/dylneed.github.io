@@ -12,14 +12,14 @@ function displayPiece(piece) {
     </b>
     {piece.year && ` (${piece.year})`}
     <br />
-    <i style={{fontSize:"1.167rem",fontStyle:""}}> for {piece.ensemble}</i>
+    <i style={{fontSize:"1.167rem",fontStyle:""}}> {piece.ensemblePrefix ||"for"} {piece.ensemble}</i>
     {piece.performances && piece.performances.map ((performance) => {
       if (performance.url) return <>
         <br />
         <a href={performance.url} style={{fontSize:"1.167rem"}} target="_blank" rel="norefferer">
           {performance.performedOveride || "Performed by"} {performance.ensemble} ({performance.year})
         </a>
-    </>})}
+    </>; else return;})}
   </p>
 }
 
