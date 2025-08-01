@@ -6,7 +6,7 @@ function displayPiece(piece) {
   return <p className="piece" style={{fontSize:"1.333rem"}}>
     <b style={{fontVariant:"small-caps",fontSize:"1.5rem"}}>
       {piece.url
-        ? <a href={piece.url} target="_blank" rel="norefferer">{piece.title}</a>
+        ? <a href={piece.url} target="_blank" rel="noreferrer">{piece.title}</a>
         : piece.title
       }
     </b>
@@ -16,10 +16,10 @@ function displayPiece(piece) {
     {piece.performances && piece.performances.map ((performance) => {
       if (performance.url) return <>
         <br />
-        <a href={performance.url} style={{fontSize:"1.167rem"}} target="_blank" rel="norefferer">
+        <a href={performance.url} style={{fontSize:"1.167rem"}} target="_blank" rel="noreferrer">
           {performance.performedOveride || "Performed by"} {performance.ensemble} ({performance.year})
         </a>
-    </>; else return;})}
+    </>; else return <></>;})}
   </p>
 }
 
