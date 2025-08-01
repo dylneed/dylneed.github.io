@@ -17,7 +17,7 @@ function displayPiece(piece) {
       if (performance.url) return <>
         <br />
         <a href={performance.url} style={{fontSize:"1.167rem"}} target="_blank" rel="norefferer">
-          Performed by {performance.ensemble} ({performance.year})
+          {performance.performedOveride || "Performed by"} {performance.ensemble} ({performance.year})
         </a>
     </>})}
   </p>

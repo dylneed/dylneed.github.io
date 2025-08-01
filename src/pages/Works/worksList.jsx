@@ -7,8 +7,13 @@ const worksList = {
       performances: [{
         ensemble:"the Talea Ensemble",
         year:2025,
-//         url: "https://dylanneedleman.bandcamp.com/track/the-all-is-one",
+        url: "https://dylanneedleman.bandcamp.com/track/the-all-is-one",
       }]
+    },
+    {
+      title: "Down Two Flights",
+      year: 2025,
+      ensemble: "Alto Flute, Oboe, Bass Clarinet, Marimba, and Piano"
     },
     {
       title: "A Shard",
@@ -44,13 +49,13 @@ const worksList = {
     {
       title: "The Bells",
       year: 2021,
-      ensemble: "Three Bass Voices",
+      ensemble: "three Bass Voices",
       url: "https://dylanneedleman.bandcamp.com/track/the-bells"
     }
   ],
   soloDuet: [
 //     {
-//       title: "Whatever Walked There Walked Alone",
+//       title: "A House Without Kindness",
 //       year: 2025,
 //       ensemble: "solo Piano",
 //       performances :[{
@@ -93,6 +98,7 @@ const worksList = {
         ensemble:"the Vassar College Choir",
         year:2023,
         url:"https://dylanneedleman.bandcamp.com/track/ozymandias",
+        performedOveride: "Read by"
       }],
     }
   ],
