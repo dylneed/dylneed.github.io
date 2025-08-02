@@ -28,6 +28,10 @@ const worksList = {
     {
       title: "The Chambers of the Sea",
       year: 2023,
+      text: {
+        work: "The Love Song of J. Alfred Prufrock",
+        author: "T.S. Eliot",
+      },
       ensemble: "Harmonica, Baritone, and Live Electronics",
       url: "https://dylanneedleman.bandcamp.com/track/the-chambers-of-the-sea"
     },
@@ -49,6 +53,10 @@ const worksList = {
     {
       title: "The Bells",
       year: 2021,
+      text: {
+        work: "The Bells",
+        author: "Edgar Allen Poe",
+      },
       ensemble: "three Bass Voices",
       url: "https://dylanneedleman.bandcamp.com/track/the-bells"
     }
@@ -94,11 +102,15 @@ const worksList = {
       title: "Ozymandias",
       year: 2022,
       ensemble: "SATB Choir",
+      text: {
+        work: "Ozymandias",
+        author: "Percy Bysshe Shelley",
+      },
       performances: [{
         ensemble:"the Vassar College Choir",
         year:2023,
         url:"https://dylanneedleman.bandcamp.com/track/ozymandias",
-        performedOveride: "Read by"
+        performedOveride: "read by"
       }],
     }
   ],
