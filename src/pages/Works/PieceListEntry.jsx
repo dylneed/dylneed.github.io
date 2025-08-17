@@ -10,7 +10,7 @@ function PieceListEntry({piece}) {
     </b>
     {piece.year && ` (${piece.year})`}
     <br />
-    <i style={{fontSize:"1.167rem",fontStyle:""}}> {piece.ensemblePrefix ||"for"} {piece.ensemble}</i>
+    {piece.ensemble && <i style={{fontSize:"1.167rem",fontStyle:""}}> {piece.ensemblePrefix ||"for"} {piece.ensemble}</i>}
       {piece.text && <><br /><i style={{fontSize:"1.167rem",fontStyle:""}}>
       {piece.text.prefix || "with text"}
       {piece.text.work && piece.text.work !== piece.title && <> {piece.text.workPrefix || "from"} <em>"{piece.text.work}"</em></>}

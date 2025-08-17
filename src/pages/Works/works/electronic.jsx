@@ -10,6 +10,20 @@ const electronic = {
     //       url: ""
     //     },
     {
+      title: "Hen To Pan",
+      year:2025,
+      selected:true,
+      id: "hen-to-pan",
+      url: "https://dylanneedleman.bandcamp.com/track/hen-to-p-n"
+    },
+    {
+      title: "Sonatina for Paul (Passing Through)",
+      year: 2024,
+      selected:true,
+      id: "sonatina-for-paul",
+      url: "https://dylanneedleman.bandcamp.com/track/sonatina-for-paul-passing-through"
+    },
+    {
       title: "The Whalefall",
       year: 2022,
       ensemble: "Electronic Instruments and Recorded Voice and Instruments",
