@@ -22,6 +22,11 @@ const soloDuet = {
       }]
     },
     {
+      title: "The Sinking Call",
+      year: 2025,
+      ensemble: "Tenor Saxophone, Baritone Saxophone, and Fixed Media"
+    },
+    {
       title:"Rest",
       year:2020,
       ensemble:"Piano Four Hands"
