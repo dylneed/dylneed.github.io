@@ -1,5 +1,6 @@
 const soloDuet = {
   title: "Solos and Duets",
+  url: "solo-duet",
   works: [
     //     {
     //       title: "A House Without Kindness",

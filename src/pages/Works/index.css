@@ -53,3 +53,12 @@ span.piece-ensemble {
 p.piece {
   margin-bottom:10px;
 }
+
+.works-link:hover {
+  color:#8bf;
+  filter:none;
+}
+
+.works-link:active {
+  color:#38f
+}

@@ -1,5 +1,6 @@
 const large = {
   title: "Large Ensembles",
+  url: "large",
   works: [
     {
       title: "Ozymandias",

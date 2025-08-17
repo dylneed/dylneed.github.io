@@ -1,5 +1,6 @@
 const electronic = {
   title: "Electronic Works",
+  url: "electronic",
   works: [
     //     {
     //       title: "All//One",

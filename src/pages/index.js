@@ -4,7 +4,7 @@ import { Route, Link , Navigate } from "react-router-dom";
 import About from './About';
 import {Home as BlogHome, Post as BlogPost, posts as blogPosts, postTitles as blogPostTitles} from './Blog';
 import Contact from './Contact';
-import Works from './Works';
+import {Home as WorksHome, workTypes, Type as WorkType, Piece as WorkPiece} from './Works';
 
 import TitleUpdater from "../components/TitleUpdater";
 import ExternalNavigator from "../components/ExternalNavigator";
@@ -52,12 +52,47 @@ blog.route =  <Route path={blog.path} key="blog">
                            </>}
                 />
               </Route>
-
 let works = {
   name: "Works",
   path:"/works",
-  element: <Works />,
+  element: <WorksHome />,
 }
+works.title=works.name;
+works.route = <Route path={works.path} key="works">
+                {workTypes.map((type, i) => {
+                  return (
+                    <Route path={type.url} key={i} >
+                      {type.works.map((piece,i) => {
+                        return (
+                          <Route
+                            path={piece.id || piece.title.toLowerCase().replace(/[/\\ ]/g,"-")}
+                            key={i}
+                            element={<>
+                                    <TitleUpdater pageTitle={`${piece.title} | Works`} />
+                                    <WorkPiece piece={piece} />
+                                    </>}
+                          />);
+                        })}
+                        <Route
+                          path=""
+                          key={i}
+                          element={<>
+                                    <TitleUpdater pageTitle={type.title} />
+                                    <WorkType workType={type} />
+                                  </>}
+                        />
+                    </Route>);
+                })}
+                <Route
+                  path=""
+                  element={
+                    <>
+                      <TitleUpdater pageTitle={works.title} />
+                      <WorksHome />
+                    </>
+                  }
+                />
+             </Route>
 
 let contact = {
   name: "Contact",
