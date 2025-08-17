@@ -63,15 +63,16 @@ works.route = <Route path={works.path} key="works">
                   return (
                     <Route path={type.url} key={i} >
                       {type.works.map((piece,i) => {
-                        return (
-                          <Route
-                            path={piece.id || piece.title.toLowerCase().replace(/[/\\ ]/g,"-")}
-                            key={i}
-                            element={<>
-                                    <TitleUpdater pageTitle={`${piece.title} | Works`} />
-                                    <WorkPiece piece={piece} />
-                                    </>}
-                          />);
+                        return piece.page
+                          ? (<Route
+                              path={piece.id || piece.title.toLowerCase().replace(/[/\\ ]/g,"-")}
+                              key={i}
+                              element={<>
+                                      <TitleUpdater pageTitle={`${piece.title} | Works`} />
+                                      <WorkPiece piece={piece} />
+                                      </>}
+                            />)
+                          : (<></>);
                         })}
                         <Route
                           path=""
