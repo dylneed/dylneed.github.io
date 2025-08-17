@@ -1,5 +1,4 @@
 import React from 'react';
-import worksList from './works'
 
 function PieceListEntry({piece}) {
   return <p className="piece" style={{fontSize:"1.333rem"}}>
