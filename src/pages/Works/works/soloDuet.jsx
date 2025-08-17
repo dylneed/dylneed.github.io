@@ -12,9 +12,16 @@ const soloDuet = {
     //       }]
     //     },
     {
+      title: "The Sinking Call",
+      year: 2025,
+      selected: false,
+      ensemble: "Tenor Saxophone, Baritone Saxophone, and Fixed Media"
+    },
+    {
       title: "Faulting",
       year: 2025,
       ensemble: "Violin, Cimbalom, and Fixed Media",
+      selected: true,
       performances: [{
         ensemble:"the Lamnth Duo",
         year:2025,
@@ -22,19 +29,16 @@ const soloDuet = {
       }]
     },
     {
-      title: "The Sinking Call",
-      year: 2025,
-      ensemble: "Tenor Saxophone, Baritone Saxophone, and Fixed Media"
-    },
-    {
       title:"Rest",
       year:2020,
+      selected: false,
       ensemble:"Piano Four Hands"
     },
     {
       title: "Thin the Veil",
       year: 2020,
       ensemble: "Flute and Cello",
+      selected: true,
       performances: [{
         ensemble:"Christopher Story and Lori Beth Sussman",
         year:2020,

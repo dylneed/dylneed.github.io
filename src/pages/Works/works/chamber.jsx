@@ -2,9 +2,16 @@ const chamber = {
   title: "Chamber Music",
   works: [
     {
+      title: "Down Two Flights",
+      year: 2025,
+      ensemble: "Alto Flute, Oboe, Bass Clarinet, Marimba, and Piano",
+      selected: false,
+    },
+    {
       title: "The All Is One",
       year: 2025,
       ensemble: "Flute, Bass Clarinet, Bassoon, Piano, Violin, Viola, and Cello",
+      selected: true,
       performances: [{
         ensemble:"the Talea Ensemble",
         year:2025,
@@ -12,14 +19,10 @@ const chamber = {
       }]
     },
     {
-      title: "Down Two Flights",
-      year: 2025,
-      ensemble: "Alto Flute, Oboe, Bass Clarinet, Marimba, and Piano"
-    },
-    {
       title: "A Shard",
       year: 2024,
       ensemble: "String Quartet",
+      selected: true,
       performances:[{
         ensemble:"the Lydian String Quartet",
         year:2024,
@@ -29,6 +32,7 @@ const chamber = {
     {
       title: "The Chambers of the Sea",
       year: 2023,
+      selected: true,
       text: {
         work: "The Love Song of J. Alfred Prufrock",
         author: "T.S. Eliot",
@@ -39,12 +43,14 @@ const chamber = {
     {
       title: "The Valley of Nis",
       year: 2022,
-      ensemble: "Clarinet, Trombone, Harp, Double Bass, and Percussion"
+      ensemble: "Clarinet, Trombone, Harp, Double Bass, and Percussion",
+      selected: false,
     },
     {
       title: "Cycle",
       year: 2021,
       ensemble: "String Quartet",
+      selected: true,
       performances:[{
         ensemble:"Robin Zeh, Rachel Handman, Marka Gustavsson, and Yavi Bond",
         year:2021,
@@ -59,7 +65,8 @@ const chamber = {
         author: "Edgar Allan Poe",
       },
       ensemble: "three Bass Voices",
-      url: "https://dylanneedleman.bandcamp.com/track/the-bells"
+      selected: true,
+      url: "https://dylanneedleman.bandcamp.com/track/the-bells",
     }
   ]
 }

@@ -9,6 +9,7 @@ const large = {
         work: "Ozymandias",
         author: "Percy Bysshe Shelley",
       },
+      selected: true,
       performances: [{
         ensemble:"the Vassar College Choir",
         year:2023,

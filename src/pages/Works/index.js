@@ -5,35 +5,36 @@ import worksList from './works'
 function Works() {
   return <div id="works">
     <div id="works-list">
-      <h1 className="header">Works</h1>
+      <h1 className="header">Selected Works</h1>
       {worksList.map(works => <>
         <h2 className="ensemble-type">{works.title}</h2>
-        {works.works.map(piece =>
-          <p className="piece" style={{fontSize:"1.333rem"}}>
-            <b style={{fontVariant:"small-caps",fontSize:"1.667rem"}}>
-              {piece.url
-                ? <a href={piece.url} target="_blank" rel="noreferrer">{piece.title}</a>
-                : piece.title
-              }
-            </b>
-            {piece.year && ` (${piece.year})`}
-            <br />
-            <i style={{fontSize:"1.167rem",fontStyle:""}}> {piece.ensemblePrefix ||"for"} {piece.ensemble}</i>
-            {piece.text && <><br /><i style={{fontSize:"1.167rem",fontStyle:""}}>
-              {piece.text.prefix || "with text"}
-              {piece.text.work && piece.text.work !== piece.title && <> {piece.text.workPrefix || "from"} <em>"{piece.text.work}"</em></>}
-              {piece.text.author && <> {piece.text.authorPrefix || "by"} {piece.text.author}</>}
-            </i></>}
-            {piece.performances && piece.performances.map ((performance) =>
-              performance.url
-              ? <>
-                <br />
-                <a href={performance.url} style={{fontSize:"1.167rem"}} target="_blank" rel="noreferrer">
-                  {performance.performedOveride || "performed by"} {performance.ensemble} ({performance.year})
-                </a>
-              </>
-              : <></>)}
-            </p>
+        {works.works.map(piece => piece.selected
+         ? <p className="piece" style={{fontSize:"1.333rem"}}>
+              <b style={{fontVariant:"small-caps",fontSize:"1.667rem"}}>
+                {piece.url
+                  ? <a href={piece.url} target="_blank" rel="noreferrer">{piece.title}</a>
+                  : piece.title
+                }
+              </b>
+              {piece.year && ` (${piece.year})`}
+              <br />
+              <i style={{fontSize:"1.167rem",fontStyle:""}}> {piece.ensemblePrefix ||"for"} {piece.ensemble}</i>
+              {piece.text && <><br /><i style={{fontSize:"1.167rem",fontStyle:""}}>
+                {piece.text.prefix || "with text"}
+                {piece.text.work && piece.text.work !== piece.title && <> {piece.text.workPrefix || "from"} <em>"{piece.text.work}"</em></>}
+                {piece.text.author && <> {piece.text.authorPrefix || "by"} {piece.text.author}</>}
+              </i></>}
+              {piece.performances && piece.performances.map ((performance) =>
+                performance.url
+                ? <>
+                  <br />
+                  <a href={performance.url} style={{fontSize:"1.167rem"}} target="_blank" rel="noreferrer">
+                    {performance.performedOveride || "performed by"} {performance.ensemble} ({performance.year})
+                  </a>
+                </>
+                : <></>)}
+              </p>
+            : <></>
         )}
       </>)}
     </div>

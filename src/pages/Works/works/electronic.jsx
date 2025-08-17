@@ -12,12 +12,14 @@ const electronic = {
       title: "The Whalefall",
       year: 2022,
       ensemble: "Electronic Instruments and Recorded Voice and Instruments",
+      selected: true,
       url: "https://dylanneedleman.bandcamp.com/track/the-whalefall"
     },
     {
       title: "Song of the Void",
       year: 2021,
       ensemble: "Electronic Instruments and Recorded Voice and Instruments",
+      selected: true,
       url: "https://dylanneedleman.bandcamp.com/track/song-of-the-void"
     }
   ],
