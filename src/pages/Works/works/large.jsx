@@ -3,6 +3,17 @@ const large = {
   url: "large",
   works: [
     {
+      title: "Well Being For All",
+      year: 2025,
+      ensemble: "SATB Choir",
+      text: {
+        work: "The Conquest of Bread",
+        author: "Peter Kropotkin",
+      },
+      selected: false,
+      page: true,
+    },
+    {
       title: "Ozymandias",
       year: 2022,
       ensemble: "SATB Choir",
