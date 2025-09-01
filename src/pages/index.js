@@ -65,11 +65,11 @@ works.route = <Route path={works.path} key="works">
                       {type.works.map((piece,i) => {
                         return piece.page
                           ? (<Route
-                              path={piece.id || piece.title.toLowerCase().replace(/[/\\ ]/g,"-")}
+                              path={piece.id}
                               key={i}
                               element={<>
-                                      <TitleUpdater pageTitle={`${piece.title} | Works`} />
-                                      <WorkPiece piece={piece} />
+                                        <TitleUpdater pageTitle={`${piece.title} | Works`} />
+                                        <WorkPiece piece={piece} />
                                       </>}
                             />)
                           : (<></>);
