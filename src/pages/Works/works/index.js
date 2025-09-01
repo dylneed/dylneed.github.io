@@ -10,4 +10,10 @@ const works = [
   electronic,
 ]
 
+works.forEach((type) => {
+  type.works.forEach((piece) => {
+    piece.id = piece.id || piece.title.toLowerCase().replace(/[/\\ ]/g,"-")
+  })
+})
+
 export default works
