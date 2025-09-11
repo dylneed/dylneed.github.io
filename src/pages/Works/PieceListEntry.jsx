@@ -9,7 +9,7 @@ function Title({piece, link=true}) {
   return <>
     <b style={{fontVariant:"small-caps",fontSize:"1.667rem"}}>
       {link && piece.page
-        ? <Link to={`/works/${piece.workTypeUrl}/${piece.id}`} onClick={() => window && window.scroll(0,0)}>
+        ? <Link to={piece.internalUrl} onClick={() => window && window.scroll(0,0)}>
             {piece.title}
           </Link>
         : piece.title
