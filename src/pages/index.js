@@ -9,7 +9,6 @@ import {Home as WorksHome, workTypes, Type as WorkType, Piece as WorkPiece} from
 import TitleUpdater from "../components/TitleUpdater";
 import ExternalNavigator from "../components/ExternalNavigator";
 
-
 let about = {
   name: "About",
   title: "",

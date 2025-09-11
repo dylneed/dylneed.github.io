@@ -1,3 +1,9 @@
+import wellBeingForAllPdf from "../../../assets/works/well-being-for-all.pdf"
+import wellBeingForAllMidiMp3 from "../../../assets/works/well-being-for-all-midi.mp3"
+import ozymandiasPdf from "../../../assets/works/ozymandias.pdf"
+import ozymandiasVccMp3 from "../../../assets/works/ozymandias-vcc.mp3"
+
+
 const large = {
   title: "Large Ensembles",
   url: "large",
@@ -11,7 +17,12 @@ const large = {
         author: "Peter Kropotkin",
       },
       selected: false,
-      page: true,
+      pdf: wellBeingForAllPdf,
+      performances: [{
+        midiRealization: true,
+        performedOveride: "\b",
+        mp3: wellBeingForAllMidiMp3,
+      }]
     },
     {
       title: "Ozymandias",
@@ -22,12 +33,14 @@ const large = {
         author: "Percy Bysshe Shelley",
       },
       selected: true,
+      pdf: ozymandiasPdf,
       performances: [{
         ensemble:"the Vassar College Choir",
         year:2023,
-        url:"https://dylanneedleman.bandcamp.com/track/ozymandias",
-        performedOveride: "read by"
-      }],
+        bandcampUrl:"https://dylanneedleman.bandcamp.com/track/ozymandias",
+        performedOveride: "read by",
+        mp3:ozymandiasVccMp3,
+      },],
     }
   ],
 }

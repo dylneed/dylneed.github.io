@@ -1,3 +1,18 @@
+import downTwoFlightsPdf from "../../../assets/works/down-two-flights.pdf"
+import downTwoFlightsMidiMp3 from "../../../assets/works/down-two-flights-midi.mp3"
+import theAllIsOnePdf from "../../../assets/works/the-all-is-one.pdf"
+import theAllIsOneTaleaMp3 from "../../../assets/works/the-all-is-one-talea.mp3"
+import aShardPdf from "../../../assets/works/a-shard.pdf"
+import aShardLydianMp3 from "../../../assets/works/a-shard-lydian.mp3"
+import theChambersOfTheSeaPdf from "../../../assets/works/the-chambers-of-the-sea.pdf"
+import theChambersOfTheSeaSelfMp3 from "../../../assets/works/the-chambers-of-the-sea-self.mp3"
+import theValleyOfNisPdf from "../../../assets/works/the-valley-of-nis.pdf"
+import theValleyOfNisMidiMp3 from "../../../assets/works/the-valley-of-nis-midi.mp3"
+import cyclePdf from "../../../assets/works/cycle.pdf"
+import cycle2021Mp3 from "../../../assets/works/cycle-2021.mp3"
+import theBellsPdf from "../../../assets/works/the-bells.pdf"
+import theBellsSelfMp3 from "../../../assets/works/the-bells-self.mp3"
+
 const chamber = {
   title: "Chamber Music",
   url: "chamber",
@@ -7,16 +22,23 @@ const chamber = {
       year: 2025,
       ensemble: "Alto Flute, Oboe, Bass Clarinet, Marimba, and Piano",
       selected: false,
+      pdf: downTwoFlightsPdf,
+      performances:[{
+        midiRealization:true,
+        mp3:downTwoFlightsMidiMp3,
+      }]
     },
     {
       title: "The All Is One",
       year: 2025,
       ensemble: "Flute, Bass Clarinet, Bassoon, Piano, Violin, Viola, and Cello",
       selected: true,
+      pdf: theAllIsOnePdf,
       performances: [{
         ensemble:"the Talea Ensemble",
         year:2025,
-        url: "https://dylanneedleman.bandcamp.com/track/the-all-is-one",
+        mp3: theAllIsOneTaleaMp3,
+        bandcampUrl: "https://dylanneedleman.bandcamp.com/track/the-all-is-one",
       }]
     },
     {
@@ -24,10 +46,12 @@ const chamber = {
       year: 2024,
       ensemble: "String Quartet",
       selected: true,
+      pdf: aShardPdf,
       performances:[{
         ensemble:"the Lydian String Quartet",
         year:2024,
-        url:"https://dylanneedleman.bandcamp.com/track/a-shard"
+        mp3: aShardLydianMp3,
+        bandcampUrl:"https://dylanneedleman.bandcamp.com/track/a-shard"
       }]
     },
     {
@@ -39,23 +63,36 @@ const chamber = {
         author: "T.S. Eliot",
       },
       ensemble: "Harmonica, Baritone, and Live Electronics",
-      url: "https://dylanneedleman.bandcamp.com/track/the-chambers-of-the-sea"
+      pdf: theChambersOfTheSeaPdf,
+      performances:[{
+        ensemble:"Dylan Needleman",
+        year: 2023,
+        mp3: theChambersOfTheSeaSelfMp3,
+        bandcampUrl: "https://dylanneedleman.bandcamp.com/track/the-chambers-of-the-sea",
+      }]
     },
     {
       title: "The Valley of Nis",
       year: 2022,
       ensemble: "Clarinet, Trombone, Harp, Double Bass, and Percussion",
       selected: false,
+      pdf: theValleyOfNisPdf,
+      performances:[{
+        midiRealization:true,
+        mp3:theValleyOfNisMidiMp3,
+      }]
     },
     {
       title: "Cycle",
       year: 2021,
       ensemble: "String Quartet",
       selected: true,
+      pdf: cyclePdf,
       performances:[{
         ensemble:"Robin Zeh, Rachel Handman, Marka Gustavsson, and Yavi Bond",
         year:2021,
-        url:"https://dylanneedleman.bandcamp.com/track/cycle"
+        mp3:cycle2021Mp3,
+        bandcampUrl:"https://dylanneedleman.bandcamp.com/track/cycle"
       }]
     },
     {
@@ -67,7 +104,14 @@ const chamber = {
       },
       ensemble: "three Bass Voices",
       selected: true,
+      pdf: theBellsPdf,
       url: "https://dylanneedleman.bandcamp.com/track/the-bells",
+      performances:[{
+        ensemble:"Dylan Needleman",
+        year:2021,
+        mp3: theBellsSelfMp3,
+        bandcampUrl:"https://dylanneedleman.bandcamp.com/track/the-bells"
+      }]
     }
   ]
 }

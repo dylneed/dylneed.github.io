@@ -1,0 +1,44 @@
+#piece {
+/* background-color: rgb(0,0,0,0.6); */
+background-image: linear-gradient(90deg,transparent 0%,rgba(0,0,0,0.8) 15%, rgba(0,0,0,0.8) 85%, transparent);
+min-height:min(80vh, 100vh - 160px);
+padding: min(15vh, 120px) 0px min(9vh,72px);
+}
+
+h1.header {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+p.header {
+  padding-top: 0;
+  padding-bottom:0px;
+  text-align: center;
+}
+
+@media screen and (min-width:700px) {
+  embed {
+    width: 60vw;
+    min-width:700px;
+  }
+}
+
+embed {
+  height: 75vh;
+  display:block;
+  margin: auto;
+}
+
+@media screen and (max-width:700px) {
+  embed {
+    width:94%;
+  }
+}
+
+img.performance-button {
+  opacity:100%
+}
+
+img.performance-button:hover {
+  opacity:70%;
+  cursor: pointer;
+}

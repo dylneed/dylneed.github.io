@@ -12,7 +12,9 @@ const works = [
 
 works.forEach((type) => {
   type.works.forEach((piece) => {
-    piece.id = piece.id || piece.title.toLowerCase().replace(/[/\\ ]/g,"-")
+    piece.id = piece.id || piece.title.toLowerCase().replace(/[/\\ ]/g,"-");
+    piece.workTypeUrl=type.url
+    if (piece.page === undefined && piece.pdf) piece.page = true
   })
 })
 
