@@ -1,17 +1,41 @@
 {
   "files": {
-    "main.css": "/static/css/main.c67f2858.css",
-    "main.js": "/static/js/main.82562b5d.js",
+    "main.css": "/static/css/main.67adf73f.css",
+    "main.js": "/static/js/main.42fe2c9e.js",
+    "static/media/the-all-is-one-talea.mp3": "/static/media/the-all-is-one-talea.8116914d762b12ca79ac.mp3",
+    "static/media/faulting-lamnth.mp3": "/static/media/faulting-lamnth.8910ffd43d8e02e0d42f.mp3",
+    "static/media/cycle-2021.mp3": "/static/media/cycle-2021.ba58dd7091c66312e19c.mp3",
+    "static/media/down-two-flights-midi.mp3": "/static/media/down-two-flights-midi.b89051f084f8a04e400a.mp3",
+    "static/media/a-shard-lydian.mp3": "/static/media/a-shard-lydian.c999c381d0edd023996d.mp3",
+    "static/media/ozymandias-vcc.mp3": "/static/media/ozymandias-vcc.2c679a176613797e5934.mp3",
+    "static/media/the-bells-self.mp3": "/static/media/the-bells-self.e9492373c722799ba7c2.mp3",
+    "static/media/the-chambers-of-the-sea-self.mp3": "/static/media/the-chambers-of-the-sea-self.d67d4036ecb449fc0bae.mp3",
+    "static/media/well-being-for-all-midi.mp3": "/static/media/well-being-for-all-midi.8fe90703ef51cf5f9089.mp3",
     "static/media/header.png": "/static/media/header.7968e0b425a60e401b5a.png",
+    "static/media/the-sinking-call-midi.mp3": "/static/media/the-sinking-call-midi.22f9354fe571f2936191.mp3",
+    "static/media/thin-the-veil-2020.mp3": "/static/media/thin-the-veil-2020.70e0cb858e4800c73af1.mp3",
+    "static/media/the-valley-of-nis-midi.mp3": "/static/media/the-valley-of-nis-midi.df642a9cf2c17eab833d.mp3",
     "static/media/background.jpg": "/static/media/background.f3721e94603f06a54faf.jpg",
+    "static/media/down-two-flights.pdf": "/static/media/down-two-flights.41aac0a25d391370a24c.pdf",
+    "static/media/the-bells.pdf": "/static/media/the-bells.af5ffa038dd8d0d5a95b.pdf",
+    "static/media/faulting.pdf": "/static/media/faulting.d687ab1cce72d7ce5271.pdf",
+    "static/media/ozymandias.pdf": "/static/media/ozymandias.0699b9863ddb8c261b17.pdf",
+    "static/media/a-shard.pdf": "/static/media/a-shard.183934e7c53544e888e9.pdf",
+    "static/media/cycle.pdf": "/static/media/cycle.58ec02044d805b075c2d.pdf",
+    "static/media/the-all-is-one.pdf": "/static/media/the-all-is-one.ceae6905b62d9749ebc4.pdf",
     "static/media/SINA NOVA W01 REGULAR.OTF": "/static/media/SINA NOVA W01 REGULAR.7e97d54b08fba9321e68.OTF",
+    "static/media/the-chambers-of-the-sea.pdf": "/static/media/the-chambers-of-the-sea.ba64729d485ca394a5ca.pdf",
+    "static/media/well-being-for-all.pdf": "/static/media/well-being-for-all.aae7e87e92d326347f26.pdf",
+    "static/media/thin-the-veil.pdf": "/static/media/thin-the-veil.1e8f4e2554ea8db515f7.pdf",
+    "static/media/the-sinking-call.pdf": "/static/media/the-sinking-call.65a8ca9f62e8918a1fc6.pdf",
+    "static/media/the-valley-of-nis.pdf": "/static/media/the-valley-of-nis.06891d92717ecc67f64d.pdf",
     "static/media/FRIZ QUADRATA STD REGULAR.OTF": "/static/media/FRIZ QUADRATA STD REGULAR.aff9163cc1d1a0cf84c8.OTF",
     "index.html": "/index.html",
-    "main.c67f2858.css.map": "/static/css/main.c67f2858.css.map",
-    "main.82562b5d.js.map": "/static/js/main.82562b5d.js.map"
+    "main.67adf73f.css.map": "/static/css/main.67adf73f.css.map",
+    "main.42fe2c9e.js.map": "/static/js/main.42fe2c9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c67f2858.css",
-    "static/js/main.82562b5d.js"
+    "static/css/main.67adf73f.css",
+    "static/js/main.42fe2c9e.js"
   ]
 }
