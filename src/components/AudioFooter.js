@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef} from 'react';
 
 function AudioFooter({source,setSource,autoplay=true}) {
   const audioRef = useRef()
@@ -9,7 +9,7 @@ function AudioFooter({source,setSource,autoplay=true}) {
   },[source])
 
   return <audio
-           controls={source != undefined}
+           controls={source !== undefined}
            style={{width:"94%",paddingLeft:"3%", bottom:"1.5vh", zIndex:1, position:"fixed"}}
            onEnded={() => setSource()}
            autoplay={autoplay}

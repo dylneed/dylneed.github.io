@@ -9,7 +9,6 @@ import downloadButton from "../../assets/img/downloadbutton.png"
 import bandcampLogo from "../../assets/img/bandcamp.png"
 
 function Piece({piece}) {
-  const pdfPath = piece.pdfPath || `/assets/works/${piece.id}.pdf`
   const [audioSource,setAudioSource] = useState()
 
   return <div id="piece">
