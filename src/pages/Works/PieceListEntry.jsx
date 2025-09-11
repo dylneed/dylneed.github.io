@@ -1,5 +1,9 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import playButton from "../../assets/img/playbutton.png"
+import stopButton from "../../assets/img/stopbutton.png"
+import downloadButton from "../../assets/img/downloadbutton.png"
+import bandcampLogo from "../../assets/img/bandcamp.png"
 
 function Title({piece, link=true}) {
   return <>
@@ -12,6 +16,28 @@ function Title({piece, link=true}) {
       }
     </b>
     {piece.year && ` (${piece.year})`}
+  </>
+}
+
+function PlayerTitle({piece, link=true, audioSource, setAudioSource, mp3}) {
+  return <>
+    {piece.mp3 && <img
+      alt={(audioSource === piece.mp3) ? "Stop" : "Play"}
+      className="performance-button"
+      src={(audioSource === piece.mp3) ? stopButton : playButton}
+      style={{height:"1.875rem",verticalAlign:"bottom"}}
+      onClick={() => {if (audioSource === piece.mp3) {setAudioSource()} else {setAudioSource(piece.mp3)}}}
+    />}
+    {" "}
+    <Title piece={piece} link={link} />
+    {" "}
+    {piece.bandcampUrl && <a href={piece.bandcampUrl} target="_blank" rel="noreferrer">
+    <img className="performance-button" alt="Bandcamp" src={bandcampLogo} style={{height:"1.875rem",verticalAlign:"bottom"}} />
+    </a>}
+    {" "}
+    {piece.mp3 && <a href={piece.mp3} download>
+    <img className="performance-button" alt="Download" src={downloadButton} style={{height:"1.875rem",verticalAlign:"bottom"}} />
+    </a>}
   </>
 }
 
@@ -45,9 +71,13 @@ function Performances({piece, link=false, showMidi=false }) {
     </>)
 }
 
-function PieceListEntry({piece, performances=false}) {
+function PieceListEntry({piece, performances, showPlayerTitle, audioSource, setAudioSource}) {
+  console.log(showPlayerTitle)
   return <p className="piece" style={{fontSize:"1.333rem"}}>
-    <Title piece={piece} />
+    {showPlayerTitle
+      ? <PlayerTitle piece={piece} audioSource={audioSource} setAudioSource={setAudioSource} />
+      : <Title piece={piece} />
+    }
     <br />
     <Subtitle piece={piece} />
     {performances && <Performances piece={piece} />}

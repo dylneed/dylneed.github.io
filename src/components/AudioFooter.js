@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
 
-function AudioFooter({source,setSource,autoplay}) {
+function AudioFooter({source,setSource,autoplay=true}) {
   const audioRef = useRef()
 
   useEffect(() => {
