@@ -1,14 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.67adf73f.css",
-    "main.js": "/static/js/main.42fe2c9e.js",
+    "main.js": "/static/js/main.62aa0e65.js",
+    "static/media/the-whalefall.mp3": "/static/media/the-whalefall.f7ac157e0cfa7f316a59.mp3",
+    "static/media/diana-its-michelle.mp3": "/static/media/diana-its-michelle.101ba647b84b56db1004.mp3",
+    "static/media/hen-to-pan.mp3": "/static/media/hen-to-pan.95bbf34aa5757932316e.mp3",
+    "static/media/song-of-the-void.mp3": "/static/media/song-of-the-void.0ea5dc4866f13d2035e3.mp3",
+    "static/media/euthanized-in-gnome-regalia.mp3": "/static/media/euthanized-in-gnome-regalia.afd19f3918e2fa950fbe.mp3",
+    "static/media/sanguine-dreams.mp3": "/static/media/sanguine-dreams.ef2089fd483d64bf1c12.mp3",
     "static/media/the-all-is-one-talea.mp3": "/static/media/the-all-is-one-talea.8116914d762b12ca79ac.mp3",
     "static/media/faulting-lamnth.mp3": "/static/media/faulting-lamnth.8910ffd43d8e02e0d42f.mp3",
+    "static/media/west.mp3": "/static/media/west.105f4b16226a3cd59327.mp3",
     "static/media/cycle-2021.mp3": "/static/media/cycle-2021.ba58dd7091c66312e19c.mp3",
     "static/media/down-two-flights-midi.mp3": "/static/media/down-two-flights-midi.b89051f084f8a04e400a.mp3",
     "static/media/a-shard-lydian.mp3": "/static/media/a-shard-lydian.c999c381d0edd023996d.mp3",
     "static/media/ozymandias-vcc.mp3": "/static/media/ozymandias-vcc.2c679a176613797e5934.mp3",
     "static/media/the-bells-self.mp3": "/static/media/the-bells-self.e9492373c722799ba7c2.mp3",
+    "static/media/sonatina-for-paul.mp3": "/static/media/sonatina-for-paul.5a83cea50e0cb42a7b73.mp3",
     "static/media/the-chambers-of-the-sea-self.mp3": "/static/media/the-chambers-of-the-sea-self.d67d4036ecb449fc0bae.mp3",
     "static/media/well-being-for-all-midi.mp3": "/static/media/well-being-for-all-midi.8fe90703ef51cf5f9089.mp3",
     "static/media/header.png": "/static/media/header.7968e0b425a60e401b5a.png",
@@ -32,10 +40,10 @@
     "static/media/FRIZ QUADRATA STD REGULAR.OTF": "/static/media/FRIZ QUADRATA STD REGULAR.aff9163cc1d1a0cf84c8.OTF",
     "index.html": "/index.html",
     "main.67adf73f.css.map": "/static/css/main.67adf73f.css.map",
-    "main.42fe2c9e.js.map": "/static/js/main.42fe2c9e.js.map"
+    "main.62aa0e65.js.map": "/static/js/main.62aa0e65.js.map"
   },
   "entrypoints": [
     "static/css/main.67adf73f.css",
-    "static/js/main.42fe2c9e.js"
+    "static/js/main.62aa0e65.js"
   ]
 }
