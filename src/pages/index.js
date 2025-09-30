@@ -9,6 +9,8 @@ import {Home as WorksHome, workTypes, Type as WorkType, Piece as WorkPiece} from
 import TitleUpdater from "../components/TitleUpdater";
 import ExternalNavigator from "../components/ExternalNavigator";
 
+import headshotImg from "../assets/img/headshot.jpg"
+
 let about = {
   name: "About",
   title: "",
@@ -111,6 +113,14 @@ let home = {
   menuDisplay: false, 
 }
 
+let headshot = {
+  name: "Headshot",
+  path: "/headshot",
+  element: <img src={headshotImg}/>,
+  navbarDisplay: false,
+  menuDisplay: false,
+}
+
 let music = {
   name: "Music",
   title: "",
@@ -126,7 +136,8 @@ let pages = [
   works,
   blog,
   contact,
-  music
+  music,
+  headshot,
 ]
 
 pages.forEach((page,i) => {
