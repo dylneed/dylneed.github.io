@@ -116,7 +116,7 @@ let home = {
 let headshot = {
   name: "Headshot",
   path: "/headshot",
-  element: <img src={headshotImg} alt="A headshot photo of Dylan Needleman smiling"/>,
+  element: <img src={headshotImg} alt="A headshot of Dylan Needleman smiling"/>,
   navbarDisplay: false,
   menuDisplay: false,
 }
