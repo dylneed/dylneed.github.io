@@ -4,6 +4,8 @@ import faultingPdf from "../../../assets/works/faulting.pdf"
 import faultingLamnthMp3 from "../../../assets/works/faulting-lamnth.mp3"
 import thinTheVeilPdf from "../../../assets/works/thin-the-veil.pdf"
 import thinTheVeil2020Mp3 from "../../../assets/works/thin-the-veil-2020.mp3"
+import houseFirePdf from "../../../assets/works/theres-no-good-outcome-from-a-house-fire.pdf"
+import houseFireMp3 from "../../../assets/works/theres-no-good-outcome-from-a-house-fire-midi.mp3"
 
 const soloDuet = {
   title: "Solos and Duets",
@@ -28,6 +30,17 @@ const soloDuet = {
       performances: [{
         midiRealization: true,
         mp3: theSinkingCallMidiMp3,
+      }]
+    },
+    {
+      title: "There's No Good Outcome From A House Fire",
+      year: 2025,
+      selected: false,
+      pdf: houseFirePdf,
+      ensemble: "Solo Piano",
+      performances: [{
+        midiRealization: true,
+        mp3: houseFireMp3
       }]
     },
     {
