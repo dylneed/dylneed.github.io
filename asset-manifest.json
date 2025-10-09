@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.67adf73f.css",
-    "main.js": "/static/js/main.ca803f50.js",
+    "main.js": "/static/js/main.acbe2d6a.js",
     "static/media/the-whalefall.mp3": "/static/media/the-whalefall.f7ac157e0cfa7f316a59.mp3",
     "static/media/diana-its-michelle.mp3": "/static/media/diana-its-michelle.101ba647b84b56db1004.mp3",
     "static/media/hen-to-pan.mp3": "/static/media/hen-to-pan.95bbf34aa5757932316e.mp3",
@@ -23,6 +23,7 @@
     "static/media/the-sinking-call-midi.mp3": "/static/media/the-sinking-call-midi.22f9354fe571f2936191.mp3",
     "static/media/thin-the-veil-2020.mp3": "/static/media/thin-the-veil-2020.70e0cb858e4800c73af1.mp3",
     "static/media/theres-no-good-outcome-from-a-house-fire-midi.mp3": "/static/media/theres-no-good-outcome-from-a-house-fire-midi.208b81bc0aa0460a085a.mp3",
+    "static/media/downhill-midi.mp3": "/static/media/downhill-midi.4d78d6dc4109d2510cde.mp3",
     "static/media/the-valley-of-nis-midi.mp3": "/static/media/the-valley-of-nis-midi.df642a9cf2c17eab833d.mp3",
     "static/media/background.jpg": "/static/media/background.f3721e94603f06a54faf.jpg",
     "static/media/headshot.jpg": "/static/media/headshot.f6e7c6b2230e10b18bd3.jpg",
@@ -40,13 +41,14 @@
     "static/media/the-sinking-call.pdf": "/static/media/the-sinking-call.65a8ca9f62e8918a1fc6.pdf",
     "static/media/the-valley-of-nis.pdf": "/static/media/the-valley-of-nis.06891d92717ecc67f64d.pdf",
     "static/media/theres-no-good-outcome-from-a-house-fire.pdf": "/static/media/theres-no-good-outcome-from-a-house-fire.5837600158e1a4a5edd2.pdf",
+    "static/media/downhill.pdf": "/static/media/downhill.e19049b38308f04238e4.pdf",
     "static/media/FRIZ QUADRATA STD REGULAR.OTF": "/static/media/FRIZ QUADRATA STD REGULAR.aff9163cc1d1a0cf84c8.OTF",
     "index.html": "/index.html",
     "main.67adf73f.css.map": "/static/css/main.67adf73f.css.map",
-    "main.ca803f50.js.map": "/static/js/main.ca803f50.js.map"
+    "main.acbe2d6a.js.map": "/static/js/main.acbe2d6a.js.map"
   },
   "entrypoints": [
     "static/css/main.67adf73f.css",
-    "static/js/main.ca803f50.js"
+    "static/js/main.acbe2d6a.js"
   ]
 }
