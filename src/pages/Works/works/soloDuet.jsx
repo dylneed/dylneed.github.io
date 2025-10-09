@@ -6,6 +6,9 @@ import thinTheVeilPdf from "../../../assets/works/thin-the-veil.pdf"
 import thinTheVeil2020Mp3 from "../../../assets/works/thin-the-veil-2020.mp3"
 import houseFirePdf from "../../../assets/works/theres-no-good-outcome-from-a-house-fire.pdf"
 import houseFireMp3 from "../../../assets/works/theres-no-good-outcome-from-a-house-fire-midi.mp3"
+import downhillMp3 from "../../../assets/works/downhill-midi.mp3"
+import downhillPdf from "../../../assets/works/downhill.pdf"
+
 
 const soloDuet = {
   title: "Solos and Duets",
@@ -54,6 +57,17 @@ const soloDuet = {
         year:2025,
         mp3: faultingLamnthMp3,
         bandcampUrl: "https://dylanneedleman.bandcamp.com/track/faulting"
+      }]
+    },
+    {
+      title: "Downhill",
+      year: 2022,
+      selected:false,
+      ensemble: "Solo Mandolin",
+      pdf: downhillPdf,
+      performances: [{
+        midiRealization: true,
+        mp3: downhillMp3,
       }]
     },
     {
