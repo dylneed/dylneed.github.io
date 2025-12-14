@@ -2,12 +2,14 @@ import chamber from "./chamber"
 import soloDuet from "./soloDuet"
 import large from "./large"
 import electronic from "./electronic"
+import albums from "./albums"
 
 const works = [
   chamber,
   soloDuet,
   large,
   electronic,
+  albums,
 ]
 
 works.forEach((type) => {

@@ -8,7 +8,7 @@ import theWhalefallMp3 from "../../../assets/works/the-whalefall.mp3"
 import songOfTheVoidMp3 from "../../../assets/works/song-of-the-void.mp3"
 
 const electronic = {
-  title: "Electronic Works",
+  title: "Electronic and Recorded Works",
   url: "electronic",
   works: [
     //     {

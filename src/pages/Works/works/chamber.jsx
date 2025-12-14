@@ -12,11 +12,27 @@ import cyclePdf from "../../../assets/works/cycle.pdf"
 import cycle2021Mp3 from "../../../assets/works/cycle-2021.mp3"
 import theBellsPdf from "../../../assets/works/the-bells.pdf"
 import theBellsSelfMp3 from "../../../assets/works/the-bells-self.mp3"
+import fillARoomWithSoundPdf from "../../../assets/works/you-have-to-fill-a-room-with-sound.pdf"
+import fillARoomWithSoundLydianMp3 from "../../../assets/works/you-have-to-fill-a-room-with-sound-lydian.mp3"
+
 
 const chamber = {
   title: "Chamber Music",
   url: "chamber",
   works: [
+    {
+      title: "You Have to Fill a Room with Sound",
+      year: 2025,
+      ensemble: "String Quartet",
+      selected: true,
+      pdf: fillARoomWithSoundPdf,
+      performances: [{
+        ensemble:"the Talea Ensemble",
+        year:2025,
+        mp3: fillARoomWithSoundLydianMp3,
+        bandcampUrl: "https://dylanneedleman.bandcamp.com/track/you-have-to-fill-a-room-with-sound",
+      }]
+    },
     {
       title: "Down Two Flights",
       year: 2025,
