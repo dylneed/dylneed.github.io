@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.67adf73f.css",
-    "main.js": "/static/js/main.11ebc0c9.js",
+    "main.js": "/static/js/main.32a92373.js",
     "static/media/the-whalefall.mp3": "/static/media/the-whalefall.f7ac157e0cfa7f316a59.mp3",
     "static/media/diana-its-michelle.mp3": "/static/media/diana-its-michelle.101ba647b84b56db1004.mp3",
     "static/media/hen-to-pan.mp3": "/static/media/hen-to-pan.95bbf34aa5757932316e.mp3",
     "static/media/song-of-the-void.mp3": "/static/media/song-of-the-void.0ea5dc4866f13d2035e3.mp3",
     "static/media/euthanized-in-gnome-regalia.mp3": "/static/media/euthanized-in-gnome-regalia.afd19f3918e2fa950fbe.mp3",
+    "static/media/you-have-to-fill-a-room-with-sound-lydian.mp3": "/static/media/you-have-to-fill-a-room-with-sound-lydian.3119d1a0ce64e87de11c.mp3",
     "static/media/sanguine-dreams.mp3": "/static/media/sanguine-dreams.ef2089fd483d64bf1c12.mp3",
     "static/media/the-all-is-one-talea.mp3": "/static/media/the-all-is-one-talea.8116914d762b12ca79ac.mp3",
     "static/media/faulting-lamnth.mp3": "/static/media/faulting-lamnth.8910ffd43d8e02e0d42f.mp3",
@@ -34,6 +35,7 @@
     "static/media/a-shard.pdf": "/static/media/a-shard.183934e7c53544e888e9.pdf",
     "static/media/cycle.pdf": "/static/media/cycle.58ec02044d805b075c2d.pdf",
     "static/media/the-all-is-one.pdf": "/static/media/the-all-is-one.ceae6905b62d9749ebc4.pdf",
+    "static/media/you-have-to-fill-a-room-with-sound.pdf": "/static/media/you-have-to-fill-a-room-with-sound.8120811fb360ed71e558.pdf",
     "static/media/SINA NOVA W01 REGULAR.OTF": "/static/media/SINA NOVA W01 REGULAR.7e97d54b08fba9321e68.OTF",
     "static/media/the-chambers-of-the-sea.pdf": "/static/media/the-chambers-of-the-sea.ba64729d485ca394a5ca.pdf",
     "static/media/well-being-for-all.pdf": "/static/media/well-being-for-all.aae7e87e92d326347f26.pdf",
@@ -45,10 +47,10 @@
     "static/media/FRIZ QUADRATA STD REGULAR.OTF": "/static/media/FRIZ QUADRATA STD REGULAR.aff9163cc1d1a0cf84c8.OTF",
     "index.html": "/index.html",
     "main.67adf73f.css.map": "/static/css/main.67adf73f.css.map",
-    "main.11ebc0c9.js.map": "/static/js/main.11ebc0c9.js.map"
+    "main.32a92373.js.map": "/static/js/main.32a92373.js.map"
   },
   "entrypoints": [
     "static/css/main.67adf73f.css",
-    "static/js/main.11ebc0c9.js"
+    "static/js/main.32a92373.js"
   ]
 }
