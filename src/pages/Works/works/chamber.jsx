@@ -27,7 +27,7 @@ const chamber = {
       selected: true,
       pdf: fillARoomWithSoundPdf,
       performances: [{
-        ensemble:"the Talea Ensemble",
+        ensemble:"the Lydian String Quartet",
         year:2025,
         mp3: fillARoomWithSoundLydianMp3,
         bandcampUrl: "https://dylanneedleman.bandcamp.com/track/you-have-to-fill-a-room-with-sound",
