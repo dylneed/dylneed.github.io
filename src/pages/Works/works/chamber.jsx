@@ -14,12 +14,27 @@ import theBellsPdf from "../../../assets/works/the-bells.pdf"
 import theBellsSelfMp3 from "../../../assets/works/the-bells-self.mp3"
 import fillARoomWithSoundPdf from "../../../assets/works/you-have-to-fill-a-room-with-sound.pdf"
 import fillARoomWithSoundLydianMp3 from "../../../assets/works/you-have-to-fill-a-room-with-sound-lydian.mp3"
+import somethingWasSmallPdf from "../../../assets/works/something-was-small.pdf"
+// import somethingWasSmallHingeMp3 from "../../../assets/works/something-was-small-hinge.mp3"
 
 
 const chamber = {
   title: "Chamber Music",
   url: "chamber",
   works: [
+    {
+      title: "Something Was Small",
+      year: 2026,
+      ensemble: "Baritone Saxophone, Electric Guitar, Percussion, and Piano",
+      selected:true,
+      pdf: somethingWasSmallPdf,
+      performances: [{
+        ensemble: "the HINGE Quartet",
+        year: 2026,
+//         mp3: somethingWasSmallHingeMp3,
+//         bandcampUrl: "https://dylanneedleman.bandcamp.com/track/something-was-small"
+      }]
+    },
     {
       title: "You Have to Fill a Room with Sound",
       year: 2025,
