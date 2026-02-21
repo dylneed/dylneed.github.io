@@ -30,6 +30,10 @@ const chamber = {
 //       ensemble: "Chamber Ensemble",
 //       selected: true,
 //       pdf: lesPontsPdf,
+//       text: {
+//         work: "Les Ponts",
+//         author: "Arthur Rimbaud",
+//       },
 //       performances: [{
 //         ensemble: "Ensemble Télémaque",
 //         year: 2026,
