@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.67adf73f.css",
-    "main.js": "/static/js/main.be620d2a.js",
+    "main.js": "/static/js/main.e5ee12db.js",
     "static/media/the-whalefall.mp3": "/static/media/the-whalefall.f7ac157e0cfa7f316a59.mp3",
     "static/media/diana-its-michelle.mp3": "/static/media/diana-its-michelle.101ba647b84b56db1004.mp3",
     "static/media/hen-to-pan.mp3": "/static/media/hen-to-pan.95bbf34aa5757932316e.mp3",
@@ -26,6 +26,7 @@
     "static/media/theres-no-good-outcome-from-a-house-fire-midi.mp3": "/static/media/theres-no-good-outcome-from-a-house-fire-midi.208b81bc0aa0460a085a.mp3",
     "static/media/downhill-midi.mp3": "/static/media/downhill-midi.4d78d6dc4109d2510cde.mp3",
     "static/media/the-valley-of-nis-midi.mp3": "/static/media/the-valley-of-nis-midi.df642a9cf2c17eab833d.mp3",
+    "static/media/something-was-small.pdf": "/static/media/something-was-small.aa0857c9649d5c67284e.pdf",
     "static/media/background.jpg": "/static/media/background.f3721e94603f06a54faf.jpg",
     "static/media/headshot.jpg": "/static/media/headshot.f6e7c6b2230e10b18bd3.jpg",
     "static/media/down-two-flights.pdf": "/static/media/down-two-flights.41aac0a25d391370a24c.pdf",
@@ -47,10 +48,10 @@
     "static/media/FRIZ QUADRATA STD REGULAR.OTF": "/static/media/FRIZ QUADRATA STD REGULAR.aff9163cc1d1a0cf84c8.OTF",
     "index.html": "/index.html",
     "main.67adf73f.css.map": "/static/css/main.67adf73f.css.map",
-    "main.be620d2a.js.map": "/static/js/main.be620d2a.js.map"
+    "main.e5ee12db.js.map": "/static/js/main.e5ee12db.js.map"
   },
   "entrypoints": [
     "static/css/main.67adf73f.css",
-    "static/js/main.be620d2a.js"
+    "static/js/main.e5ee12db.js"
   ]
 }
