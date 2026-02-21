@@ -47,12 +47,14 @@ const chamber = {
       ensemble: "Baritone Saxophone, Electric Guitar, Percussion, and Piano",
       selected:true,
       pdf: somethingWasSmallPdf,
-      performances: [{
-        ensemble: "the HINGE Quartet",
-        year: 2026,
+      performances: [
+//         {
+//         ensemble: "the HINGE Quartet",
+//         year: 2026,
 //         mp3: somethingWasSmallHingeMp3,
 //         bandcampUrl: "https://dylanneedleman.bandcamp.com/track/something-was-small"
-      }]
+//       }
+      ]
     },
     {
       title: "You Have to Fill a Room with Sound",
