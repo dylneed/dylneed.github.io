@@ -9,7 +9,7 @@ function About() {
           Dylan Needleman is a composer, producer, and programmer originally from Northern New Jersey.
           He is currently working towards a Master of Fine Arts in Music Composition and Theory from Brandeis University,
           {/*He is currently working towards a Doctor of Musical Arts in Music Composition from Boston University
-           and has a Master of Fine Arts in Music Composition and Theory from Brandeis University*/}
+           and has a Master of Fine Arts in Music Composition and Theory from Brandeis University*/} {" "}
           and has a Bachelor of Arts in Computer Science from Vassar College with minors in Music Composition and Applied Mathematics.
         </p>
         <p>
