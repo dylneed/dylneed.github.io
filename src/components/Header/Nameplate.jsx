@@ -32,9 +32,9 @@ function Nameplate({nameplateRef: ref, header, burger}) {
             <h1 id="fullname" ref={fullname.ref}>Dylan Needleman</h1>
             {
               showOccupations && 
-              <h2 id="occupations" style={{margin:0}} ref={occupations.ref}>
+              <h4 id="occupations" style={{margin:0}} ref={occupations.ref}>
                 composer – producer – programmer
-              </h2>
+              </h4>
             }
           </>
         : showLastName && <h1 id="lastname" ref={lastname.ref}>Needleman</h1>}

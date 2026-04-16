@@ -4,7 +4,7 @@ function About() {
   return (
     <div id="about">
       <main id="textblock">
-        {/* <h2>About</h2> */}
+        {/* <h3>About</h3> */}
         <p style={{fontSize:"1.33333rem"}}>
           Dylan Needleman is a composer, producer, and programmer originally from Northern New Jersey.
           He is currently working towards a Master of Fine Arts in Music Composition and Theory from Brandeis University,
