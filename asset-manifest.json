@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1db3e8c4.css",
-    "main.js": "/static/js/main.45468a38.js",
+    "main.css": "/static/css/main.90d67ccf.css",
+    "main.js": "/static/js/main.d2be3cb5.js",
     "static/media/the-whalefall.mp3": "/static/media/the-whalefall.f7ac157e0cfa7f316a59.mp3",
     "static/media/diana-its-michelle.mp3": "/static/media/diana-its-michelle.101ba647b84b56db1004.mp3",
     "static/media/hen-to-pan.mp3": "/static/media/hen-to-pan.95bbf34aa5757932316e.mp3",
@@ -40,18 +40,22 @@
     "static/media/SINA NOVA W01 REGULAR.OTF": "/static/media/SINA NOVA W01 REGULAR.7e97d54b08fba9321e68.OTF",
     "static/media/the-chambers-of-the-sea.pdf": "/static/media/the-chambers-of-the-sea.ba64729d485ca394a5ca.pdf",
     "static/media/well-being-for-all.pdf": "/static/media/well-being-for-all.aae7e87e92d326347f26.pdf",
+    "static/media/PlantinMTProRg.ttf": "/static/media/PlantinMTProRg.34b9b0266dda3234a8f9.ttf",
     "static/media/thin-the-veil.pdf": "/static/media/thin-the-veil.1e8f4e2554ea8db515f7.pdf",
     "static/media/the-sinking-call.pdf": "/static/media/the-sinking-call.65a8ca9f62e8918a1fc6.pdf",
+    "static/media/PlantinMTProRgIt.ttf": "/static/media/PlantinMTProRgIt.921224181e3fc768ede2.ttf",
+    "static/media/PlantinMTProBold.ttf": "/static/media/PlantinMTProBold.7d0c05603f2b9f184ecd.ttf",
+    "static/media/PlantinMTProSmBd.ttf": "/static/media/PlantinMTProSmBd.44754be37ee043b42b3a.ttf",
     "static/media/the-valley-of-nis.pdf": "/static/media/the-valley-of-nis.06891d92717ecc67f64d.pdf",
     "static/media/theres-no-good-outcome-from-a-house-fire.pdf": "/static/media/theres-no-good-outcome-from-a-house-fire.5837600158e1a4a5edd2.pdf",
     "static/media/downhill.pdf": "/static/media/downhill.7a350c404ca8c04c42df.pdf",
     "static/media/FRIZ QUADRATA STD REGULAR.OTF": "/static/media/FRIZ QUADRATA STD REGULAR.aff9163cc1d1a0cf84c8.OTF",
     "index.html": "/index.html",
-    "main.1db3e8c4.css.map": "/static/css/main.1db3e8c4.css.map",
-    "main.45468a38.js.map": "/static/js/main.45468a38.js.map"
+    "main.90d67ccf.css.map": "/static/css/main.90d67ccf.css.map",
+    "main.d2be3cb5.js.map": "/static/js/main.d2be3cb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.1db3e8c4.css",
-    "static/js/main.45468a38.js"
+    "static/css/main.90d67ccf.css",
+    "static/js/main.d2be3cb5.js"
   ]
 }
