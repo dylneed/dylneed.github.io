@@ -10,7 +10,7 @@ function Content() {
         especially with a focus on how the expression of his identity as a black gay man can be important representation for his audience, 
         and how the composition of the music supports this theme.
       </p>
-      <h3>Before the album: Twitter, “C7osure” and “HOLIDAY”</h3>
+      <h5>Before the album: Twitter, “C7osure” and “HOLIDAY”</h5>
       <p>
         On June 30th, 2019, Lil Nas X publicly came out as gay via Twitter.
         This was right off the back of his EP 7, which was released a week and a half earlier.
@@ -19,7 +19,7 @@ function Content() {
         A few months later, after slowly drumming up hype through social media, on March 26th, 2021,
         Lil Nas X released the first single and corresponding video for his upcoming album.
       </p>
-      <h3>“MONTERO (Call Me By Your Name):” Out and Proud</h3>
+      <h5>“MONTERO (Call Me By Your Name):” Out and Proud</h5>
       <p>
         After slowly drumming up hype through social media, on March 26th, 2021, Lil Nas X released the first single and corresponding video for his upcoming album: “MONTERO (Call Me By Your Name).”
         Starting with just the title, it references the very popular 2007 novel and 2017 film about a queer romance.
@@ -61,7 +61,7 @@ function Content() {
         Just as the term queer, once only used as a slur, is now being used regularly as a simple descriptor, 
         especially within the realm of academia, Lil Nas X seeks to reclaim these homophobic ideas into an identity he can forge for himself.
       </p>
-      <h3>“SUN GOES DOWN:” The Pain of a Closet</h3>
+      <h5>“SUN GOES DOWN:” The Pain of a Closet</h5>
       <p>
         After the explosive first single, the anticipation was high for Lil Nas X’s next release, 
         but instead of releasing another huge pop hit, he released “SUN GOES DOWN.”
@@ -97,7 +97,7 @@ function Content() {
         This resolution of the melody is paired with the resolution of all the pain and hiding. 
         The melody resolves home, and Lil Nas X lives as his authentic self.
       </p>
-      <h3>“INDUSTRY BABY:” Queering the Hyper-Masculine</h3>
+      <h5>“INDUSTRY BABY:” Queering the Hyper-Masculine</h5>
       <p>
         The next and final single released in anticipation of the album was “INDUSTRY BABY.” 
         In contrast to both “MONTERO” and “SUN GOES DOWN,” “INDUSTRY BABY” is not explicitly about the queer experience, yet even so, 
@@ -119,7 +119,7 @@ function Content() {
         By using this masculine instrumentation, Lil Nas X is able to perform the same subversion as the music video, 
         bringing queerness into a traditionally masculine and heterosexual domain.
       </p>
-      <h3>“TALES OF DOMINICA:” The Broken Home</h3>
+      <h5>“TALES OF DOMINICA:” The Broken Home</h5>
       <p>
         Finally, on September 17th, 2021, the album MONTERO was released worldwide.
         Throughout the album, Lil Nas X makes many references to his broken home.
@@ -145,7 +145,7 @@ function Content() {
         This combination of perspectives coincides with the deeply personal statement looking both to the past with the eyes of hindsight
         and to the present with all the emotions he still carries from his history.
       </p>
-      <h3>“LIFE AFTER SALEM:” Unstable Relationships</h3>
+      <h5>“LIFE AFTER SALEM:” Unstable Relationships</h5>
       <p>
         As with everyone, queer people don’t always have the happiest or healthiest relationships,
         and this can be compounded through the marginalization queer people feel,
@@ -169,7 +169,7 @@ function Content() {
         This relationship is fundamentally broken, and thus the song itself sounds broken.
         Even in its loud, bombastic choruses there is something unstable here, something unpleasant, something wrong.
       </p>
-      <h3>“AM I DREAMING:” Queer Excellence</h3>
+      <h5>“AM I DREAMING:” Queer Excellence</h5>
       <p>
         The final song of MONTERO is “AM I DREAMING” featuring fellow queer pop icon Miley Cyrus.
         The song follows the idea of both artists wanting to leave a legacy and be remembered for their art.
@@ -191,7 +191,7 @@ function Content() {
         This growing instrumentation coincides with the impossible standards these artists are holding themselves to, 
         but as the song collapses into reverb, we are left with nothing but the memory.
       </p>
-      <h3>MONTERO, a Queer Experience</h3>
+      <h5>MONTERO, a Queer Experience</h5>
       <p>
         The album MONTERO encapsulates many aspects of Lil Nas X’s life and experience through the medium of song. 
         It is a look at one queer man's life, but in that life, so many commonalities with the queer experience jump out. 

@@ -24,7 +24,7 @@ p {
   margin:0;
 }
 
-h3 {
+h5 {
   text-align:center;
 }
 
@@ -34,7 +34,7 @@ a {
 
 p.source-entry {
   text-indent: -40px;
-  font-size: 12pt;
+  font-size: 1.08333rem;
   padding: 10px 0 0 40px;
 }
 

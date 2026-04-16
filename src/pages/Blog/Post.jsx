@@ -64,7 +64,7 @@ const Post = ({post, blogPath, getPostPath, nextPost, prevPost}) => {
           )}
         </nav>
         {post.sources && <aside aria-label="sources" id='sources'>
-          <h3>{post.sources && post.sources.heading}</h3>
+          <h5>{post.sources && post.sources.heading}</h5>
           {post.sources && post.sources.sources.map((entry,i) =>
             <p className="source-entry" key={i}>
               {entry.url

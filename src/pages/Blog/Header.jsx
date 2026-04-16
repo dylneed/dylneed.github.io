@@ -4,7 +4,7 @@ function Header({post}) {
   return (
     <div className="blog-header">
       <h2 className="title">{post.title}</h2>
-      <h3 className="subtitle">{post.subtitle}</h3>
+      <h5 className="subtitle">{post.subtitle}</h5>
       <p className="by-line">
         <span className="author">{post.author && `by ${post.author},`}</span>
         <span className="date"> {post.date && post.date.toLocaleDateString()}</span>
