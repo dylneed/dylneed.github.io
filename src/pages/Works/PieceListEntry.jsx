@@ -7,14 +7,14 @@ import bandcampLogo from "../../assets/img/bandcamp.png"
 
 function Title({piece, link=true}) {
   return <>
-    <b style={{fontVariant:"small-caps",fontSize:"1.667rem"}}>
+    <span style={{fontVariant:"small-caps",fontSize:"1.5rem",fontWeight:600}}>
       {link && piece.page
         ? <Link to={piece.internalUrl} onClick={() => window && window.scroll(0,0)}>
             {piece.title}
           </Link>
         : piece.title
       }
-    </b>
+    </span>
     {piece.year && ` (${piece.year})`}
   </>
 }
@@ -41,7 +41,7 @@ function PlayerTitle({piece, link=true, audioSource, setAudioSource, mp3}) {
   </>
 }
 
-function Subtitle({piece, style={fontSize:"1.167rem",fontStyle:""}}) {
+function Subtitle({piece, style={fontSize:"1.08333rem",fontStyle:""}}) {
   return <>
     {piece.ensemble && <i style={style}> {piece.ensemblePrefix ||"for"} {piece.ensemble}</i>}
     {piece.text && <><br /><i style={style}>

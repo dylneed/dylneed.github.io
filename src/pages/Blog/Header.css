@@ -17,12 +17,12 @@ h2.title, h3.subtitle {
 }
 
 .author, .date {
-  font-size: 1rem;
+  font-size: 1.083333rem;
   color: white;
   /* text-align:center; */
 }
 
 .edited-date {
-  font-size: 0.917rem;
+  font-size: 1rem;
   color: lightgray
 }

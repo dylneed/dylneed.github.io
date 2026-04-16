@@ -10,12 +10,12 @@ h1 {
 }
 
 #works-list {
-margin:auto;
-padding: 2vh 0;
-text-align: center;
-width:60%;
-min-width: 300px;
-max-width: 750px;
+  margin:auto;
+  padding: 2vh 0;
+  text-align: center;
+  width:60%;
+  min-width: 300px;
+  max-width: 750px;
 }
 
 @media screen and (max-width:700px) {
@@ -35,7 +35,8 @@ h2.ensemble-type {
   margin:auto;
   padding-top:10px;
   text-align:center;
-  width:fit-content
+  width:fit-content;
+  padding-bottom:5px;
 }
 
 p.piece {
