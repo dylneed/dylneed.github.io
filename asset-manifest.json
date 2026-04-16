@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.90d67ccf.css",
-    "main.js": "/static/js/main.d2be3cb5.js",
+    "main.css": "/static/css/main.59a98a89.css",
+    "main.js": "/static/js/main.aae68622.js",
     "static/media/the-whalefall.mp3": "/static/media/the-whalefall.f7ac157e0cfa7f316a59.mp3",
     "static/media/diana-its-michelle.mp3": "/static/media/diana-its-michelle.101ba647b84b56db1004.mp3",
     "static/media/hen-to-pan.mp3": "/static/media/hen-to-pan.95bbf34aa5757932316e.mp3",
@@ -51,11 +51,11 @@
     "static/media/downhill.pdf": "/static/media/downhill.7a350c404ca8c04c42df.pdf",
     "static/media/FRIZ QUADRATA STD REGULAR.OTF": "/static/media/FRIZ QUADRATA STD REGULAR.aff9163cc1d1a0cf84c8.OTF",
     "index.html": "/index.html",
-    "main.90d67ccf.css.map": "/static/css/main.90d67ccf.css.map",
-    "main.d2be3cb5.js.map": "/static/js/main.d2be3cb5.js.map"
+    "main.59a98a89.css.map": "/static/css/main.59a98a89.css.map",
+    "main.aae68622.js.map": "/static/js/main.aae68622.js.map"
   },
   "entrypoints": [
-    "static/css/main.90d67ccf.css",
-    "static/js/main.d2be3cb5.js"
+    "static/css/main.59a98a89.css",
+    "static/js/main.aae68622.js"
   ]
 }
