@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.59a98a89.css",
-    "main.js": "/static/js/main.4a6cdd56.js",
+    "main.js": "/static/js/main.6cd5c3e4.js",
     "static/media/the-whalefall.mp3": "/static/media/the-whalefall.f7ac157e0cfa7f316a59.mp3",
     "static/media/diana-its-michelle.mp3": "/static/media/diana-its-michelle.101ba647b84b56db1004.mp3",
     "static/media/hen-to-pan.mp3": "/static/media/hen-to-pan.95bbf34aa5757932316e.mp3",
@@ -30,6 +30,7 @@
     "static/media/background.jpg": "/static/media/background.f3721e94603f06a54faf.jpg",
     "static/media/headshot.jpg": "/static/media/headshot.f6e7c6b2230e10b18bd3.jpg",
     "static/media/down-two-flights.pdf": "/static/media/down-two-flights.41aac0a25d391370a24c.pdf",
+    "static/media/les-ponts.pdf": "/static/media/les-ponts.ade24e0958363e76d6e7.pdf",
     "static/media/the-bells.pdf": "/static/media/the-bells.af5ffa038dd8d0d5a95b.pdf",
     "static/media/faulting.pdf": "/static/media/faulting.d687ab1cce72d7ce5271.pdf",
     "static/media/ozymandias.pdf": "/static/media/ozymandias.0699b9863ddb8c261b17.pdf",
@@ -52,10 +53,10 @@
     "static/media/FRIZ QUADRATA STD REGULAR.OTF": "/static/media/FRIZ QUADRATA STD REGULAR.aff9163cc1d1a0cf84c8.OTF",
     "index.html": "/index.html",
     "main.59a98a89.css.map": "/static/css/main.59a98a89.css.map",
-    "main.4a6cdd56.js.map": "/static/js/main.4a6cdd56.js.map"
+    "main.6cd5c3e4.js.map": "/static/js/main.6cd5c3e4.js.map"
   },
   "entrypoints": [
     "static/css/main.59a98a89.css",
-    "static/js/main.4a6cdd56.js"
+    "static/js/main.6cd5c3e4.js"
   ]
 }
